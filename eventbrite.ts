@@ -15,7 +15,7 @@ export class EventbriteProvider {
   /**
   * Get user info
   * @method getUser
-  * @url https://www.eventbriteapi.com/v3/users/me/?token=32K2NJQNZFBDPWP6VJUR
+  * @url https://www.eventbriteapi.com/v3/users/me/?token=
   * @return Promise
   */
   getUser() {
@@ -26,7 +26,7 @@ export class EventbriteProvider {
   /**
   * Get own events
   * @method getOwnEvents
-  * @url https://www.eventbriteapi.com/v3/users/me/events/?token=32K2NJQNZFBDPWP6VJUR
+  * @url https://www.eventbriteapi.com/v3/users/me/events/?token=
   * @return Promise
   */
   getOwnEvents(data: any = {}, configData: any = {}) {
@@ -71,7 +71,7 @@ export class EventbriteProvider {
   /**
   * Get event info
   * @method getEventInfo
-  * @url https://www.eventbriteapi.com/v3/events/62554979628/?expand=ticket_classes&token=32K2NJQNZFBDPWP6VJUR
+  * @url https://www.eventbriteapi.com/v3/events/62554979628/?expand=ticket_classes&token=
   * @description 
 			{
 				expand: [ ticket_classes || venue || category || ticket_availability ],
@@ -104,7 +104,7 @@ export class EventbriteProvider {
   /**
   * Get all event info
   * @method getEventInfo
-  * @url https://www.eventbriteapi.com/v3/events/62554979628/?expand=ticket_classes&status=live&token=32K2NJQNZFBDPWP6VJUR
+  * @url https://www.eventbriteapi.com/v3/events/62554979628/?expand=ticket_classes&status=live&token=
   * @description 
 			{
 				expand: [ ticket_classes || venue || category || ticket_availability ],
